@@ -1255,7 +1255,7 @@ public static IAsyncEnumerable<TResult> FlatMap<TSource, TResult>(
 }
 // unnamed ends here
 
-// [[file:index.org::15566]]
+// [[file:index.org::15531]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1321,7 +1321,7 @@ public static async IAsyncEnumerable<TResult> SwitchMap<TSource, TResult>(
 }
 // unnamed ends here
 
-// [[file:index.org::16012]]
+// [[file:index.org::15977]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1385,7 +1385,7 @@ public static async IAsyncEnumerable<(T1, T2)> Latest<T1, T2>(
 }
 // unnamed ends here
 
-// [[file:index.org::16333]]
+// [[file:index.org::16298]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1401,7 +1401,7 @@ public static IAsyncEnumerable<TResult> ApplyLatest<T, TResult>(
 }
 // unnamed ends here
 
-// [[file:index.org::16692]]
+// [[file:index.org::16657]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1434,7 +1434,7 @@ public static async IAsyncEnumerable<T> UntilStream<T, TStop>(
 }
 // unnamed ends here
 
-// [[file:index.org::17061]]
+// [[file:index.org::17026]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1462,7 +1462,7 @@ public static async IAsyncEnumerable<T> SinceStream<T, TStart>(
 }
 // unnamed ends here
 
-// [[file:index.org::17405]]
+// [[file:index.org::17370]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1495,7 +1495,7 @@ public static async IAsyncEnumerable<List<T>> Buffer<T>(
 }
 // unnamed ends here
 
-// [[file:index.org::17787]]
+// [[file:index.org::17752]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1536,7 +1536,7 @@ public static async IAsyncEnumerable<List<T>> BufferTime<T>(
 }
 // unnamed ends here
 
-// [[file:index.org::18233]]
+// [[file:index.org::18198]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1551,7 +1551,7 @@ public static IAsyncEnumerable<List<T>> Window<T>(
 }
 // unnamed ends here
 
-// [[file:index.org::18736]]
+// [[file:index.org::18701]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1600,7 +1600,7 @@ public static IAsyncEnumerable<T> EagerNow<T>(
 }
 // unnamed ends here
 
-// [[file:index.org::19810]]
+// [[file:index.org::19775]]
 namespace AgentRex {
 using System.Threading.Channels;
 
@@ -1675,7 +1675,7 @@ public class ReplaySubject<T>
 }
 // unnamed ends here
 
-// [[file:index.org::20191]]
+// [[file:index.org::20156]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
@@ -1718,7 +1718,7 @@ public static ReplaySubject<T> Share<T>(
 }
 // unnamed ends here
 
-// [[file:index.org::20574]]
+// [[file:index.org::20539]]
 namespace AgentRex {
 public static partial class StreamOperators
 {
